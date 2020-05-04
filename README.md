@@ -9,12 +9,12 @@
 </p>
 
 
-<h2>Instrucciones para instalar la api en un servidor</h2>
+<h3>Instrucciones para instalar la api en un servidor</h3>
 <p>Para correr la api es necesario contar con un entorno de desarrollo o un servidor. El que yo use es Laragon, pero es casi lo mismo en todos los casos(Hoestead,Wamp ,Xampp etc)</p>
 <p>Como instalar Laragon?
 https://styde.net/laragon-un-entorno-de-desarrollo-para-laravel-en-windows/
+<h3>Clonar el repositorio para disponer de los archivos en local</h3>
 
-Clonar el repositorio para disponer de los archivos en local
 https://desarrolloweb.com/articulos/git-clone-clonar-repositorio.html
 <p/>
 <h3>Instalar dependencias con Composer</h3>
@@ -30,7 +30,7 @@ composer install
 
 
 De esta forma se instalarán todas las dependencias necesarias para el proyecto que fueron definidas en el archivo composer.json durante el desarrollo.
-
+<h3>Configuración de Laravel</h3>
 Archivo de configuración de Laravel
 Cada nuevo proyecto con Laravel, por defecto tiene un archivo .env con los datos de configuración necesarios para el mismo, cuando utilizamos un sistema de control de versiones como git, este archivo se excluye del repositorio por medidas de seguridad .
 
@@ -41,7 +41,7 @@ Sin embargo  existe un archivo llamado .env.example que es un ejemplo de como cr
  .env.example .env
 De esta forma ya tenemos el archivo de configuración de nuestro proyecto.
 
-Creando un nuevo API key
+<h3>Creando un nuevo API key</h3>
 Por medidas de seguridad cada proyecto de Laravel cuenta con una clave única que se crea en el archivo .env al iniciar el proyecto. En caso de que el desarrollador no te haya proporcionado están información, puedes generar una nueva API key desde la consola usando:
 
 php artisan key:generate
@@ -50,7 +50,7 @@ Por lo general las bases de datos en los proyectos de Laravel se crean haciendo 
 
 
 
-Crear una base de datos por consola
+<h3>Crear una base de datos por consola</h3>
 
 Desde la consola (usando MySql) podrías hacer algo similar a esto
 
@@ -63,7 +63,7 @@ Con esto habrás ingresado a la consola de MySql y desde ahí creas la base de d
 
 mysql> CREATE DATABASE tu_base_de_datos;
 
-
+<h3>Credenciales de la base de datos</h3>
 Posteriormente debes agregar las credenciales al archivo .env
 
 DB_HOST=localhost
@@ -71,7 +71,7 @@ DB_DATABASE=tu_base_de_datos
 DB_USERNAME=root
 DB_PASSWORD=
 
-
+<h3>Ejecutar migraciones</h3>
 Finalmente estarás habilitado para ejecutar la migración desde la consola usando artisan
 
 
@@ -79,7 +79,7 @@ php artisan migrate
 
 
 
-<LLegados a este punto  tenemos todo lo necesario para correr en  tu servidor la api. <br>
+<h3>LLegados a este punto  tenemos todo lo necesario para correr en  tu servidor la api. <br></h3>
 
 Los endpoints que desarrolle son los siguientes<br>
 
