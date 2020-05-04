@@ -79,21 +79,21 @@ php artisan migrate
 
 
 
-<LLegados a este punto  tenemos todo lo necesario para correr en  tu servidor la api. 
+<LLegados a este punto  tenemos todo lo necesario para correr en  tu servidor la api. <br>
 
-Los endpoints que desarrolle son los siguientes
-
-
-
-Register API: Verb:POST, URL:http://localhost:82/api/register
-Login API: Verb:POST, URL:http://localhost:82/api/login
-Car API all cars GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars
-Car API car single GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars/4
-Car API car edit  Verb:UPDATE : URL:http://127.0.0.1:82/api/cars/4/edit
-Car API car delete  Verb:DELETE : URL:http://127.0.0.1:82/api/cars/4/
+Los endpoints que desarrolle son los siguientes<br>
 
 
-La aplicacion react se conecta a estas dos rutas , la coleccion de autos y el auto individual:
-Car API all cars GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars
-Car API car single GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars/4
+
+Register API: Verb:POST, URL:http://localhost:82/api/register<br>
+Login API: Verb:POST, URL:http://localhost:82/api/login<br>
+Car API all cars GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars<br>
+Car API car single GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars/4<br>
+Car API car edit  Verb:UPDATE : URL:http://127.0.0.1:82/api/cars/4/edit<br>
+Car API car delete  Verb:DELETE : URL:http://127.0.0.1:82/api/cars/4/<br>
+
+
+La aplicacion react se conecta a estas dos rutas , la coleccion de autos y el auto individual:<br>
+Car API all cars GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars<br>
+Car API car single GET (No requiere loguearse) : URL:http://127.0.0.1:82/api/cars/4<br>
 
